@@ -12,8 +12,8 @@
 		font-size: 175%;
 	}
 	section {
-		position: relative;
-		padding: 15px;
+		position: absolute;
+		padding: 25px;
 		width: 100%;
 	}
 	p {
