@@ -28,7 +28,8 @@ var insertHtml = function (selector, html) {
   var targetElem = document.querySelector(selector);
   targetElem.innerHTML = html;
 };
-
+var sentiment = fetch("sentiment@ai.org")
+insertHtml(selector,sentiment)
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
